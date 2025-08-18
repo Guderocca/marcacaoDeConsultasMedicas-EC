@@ -79,4 +79,4 @@ export interface AuthContextData {
   signIn: (credentials: LoginCredentials) => Promise<void>;
   register: (data: RegisterData) => Promise<void>;
   signOut: () => Promise<void>;
-}
+} 
